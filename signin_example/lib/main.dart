@@ -10,6 +10,7 @@ class SignUpApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         '/': (context) => const SignUpScreen(),
+        '/welcome': (context) => const WelcomeScreen(),
       },
     );
   }
