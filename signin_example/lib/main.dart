@@ -62,6 +62,10 @@ class _SignUpFormState extends State<SignUpForm> {
 
   double _formProgress = 0;
 
+  void _showWelcomeScreen() {
+    Navigator.of(context).pushNamed('/welcome');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Form(
